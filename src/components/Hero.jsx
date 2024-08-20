@@ -8,7 +8,12 @@ export default function Hero() {
   return (
     <div className="mt-10 space-y-5 px-5 lg:flex lg:items-center lg:justify-center lg:gap-10 lg:px-10">
       <div className="relative mx-auto h-[300px] w-[300px] overflow-hidden rounded-full border-2 border-brand-6 bg-brand-8 lg:mx-0 lg:h-[350px] lg:w-[350px]">
-        <img src={foad} alt="img" className="absolute left-0 top-0" />
+        <img
+          src={foad}
+          alt="img"
+          className="absolute left-0 top-0"
+          draggable={false}
+        />
       </div>
       <div className="space-y-5">
         <div className="space-y-2">
