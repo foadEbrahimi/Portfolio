@@ -11,7 +11,7 @@ export default function Contact() {
         </h2>
         <Border display="flex justify-center w-28 lg:w-28 mx-auto" />
       </div>
-      <div className="mt-10 flex flex-col justify-center gap-10 px-8 sm:flex-row">
+      <div className="mt-10 grid grid-cols-1 place-items-center gap-10 px-8 sm:grid-cols-2 xl:grid-cols-4">
         {socials.map((item) => (
           <Social key={item.id} {...item} />
         ))}
