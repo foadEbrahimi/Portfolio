@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Works from "./components/Works";
 import Journy from "./components/Journy";
 import About from "./components/About";
+import Contact from "./components/Contact";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <Journy />
       <Works />
       <About />
+      <Contact />
       <br />
       <br />
       <br />
