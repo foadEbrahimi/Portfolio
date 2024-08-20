@@ -4,7 +4,7 @@ import user from "../../assets/images/svgs/user.svg";
 import date from "../../assets/images/svgs/date.svg";
 export default function Cart() {
   return (
-    <div className="rounded-xl bg-white p-4">
+    <div className="rounded-xl bg-white p-4 shadow-1">
       <img src={img} className="w-full" alt="" draggable={false} />
       <div className="mt-4 space-y-3">
         <h2 className="font-iranSans text-lg font-bold">
