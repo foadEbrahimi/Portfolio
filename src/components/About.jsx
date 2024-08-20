@@ -35,30 +35,39 @@ export default function About() {
             className="mt-5 flex animate-bounce items-center gap-1 font-iranSans font-semibold text-brand-9"
           >
             بیشتر
-            <img src={dotsBrand} className="w-5 fill-brand-9" alt="svg" />
+            <img
+              src={dotsBrand}
+              draggable={false}
+              className="w-5 fill-brand-9"
+              alt="svg"
+            />
           </button>
         </div>
         <div className="relative mt-10 flex-shrink-0 self-end px-10">
-          <img src={boy} alt="svg" className="w-32 md:w-40" />
+          <img src={boy} draggable={false} alt="svg" className="w-32 md:w-40" />
           <img
             src={doodle1}
             className="absolute left-0 top-0 w-16 md:w-20"
             alt="svg"
+            draggable={false}
           />
           <img
             src={doodle2}
             className="absolute right-5 top-0 w-16 md:w-20"
             alt="svg"
+            draggable={false}
           />
           <img
             src={doodle3}
             className="absolute right-5 top-[50%] w-16 translate-y-[-50%] md:w-20"
             alt="svg"
+            draggable={false}
           />
           <img
             src={doodle4}
             className="absolute left-0 top-[50%] w-16 translate-y-[-50%] md:w-20"
             alt="svg"
+            draggable={false}
           />
         </div>
       </div>
