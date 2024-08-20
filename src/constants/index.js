@@ -33,4 +33,9 @@ export const socials = [
     img: ins,
     label: "Foad Ebrahimi",
   },
+  {
+    id: 4,
+    img: tel,
+    label: "beFrontFace@",
+  },
 ];
