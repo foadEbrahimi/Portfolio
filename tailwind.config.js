@@ -103,7 +103,7 @@ export default {
       animation: {
         text: "aboutText 1s ease-in-out",
       },
-    },
+    },  
   },
   plugins: [],
 };
