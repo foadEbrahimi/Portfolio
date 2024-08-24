@@ -5,7 +5,7 @@ export default {
     extend: {
       fontFamily: {
         morraba: ["morraba"],
-        iranSans: ["iranSans"],
+        vazir: ["vazir"],
       },
       fontSize: {
         H1: "24px",
