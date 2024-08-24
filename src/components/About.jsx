@@ -18,21 +18,21 @@ export default function About() {
   }
 
   return (
-    <div className="mt-10 bg-white px-5 pt-5 lg:px-10">
+    <div id="about" className="mt-10 bg-white px-5 pt-5 lg:px-10">
       <div className="flex flex-col lg:flex-row lg:justify-between lg:gap-10">
         <div>
-          <h2 className="text-center font-iranSans text-2xl font-bold lg:text-right lg:text-3xl">
+          <h2 className="font-vazir text-center text-2xl font-bold lg:text-right lg:text-3xl">
             درباره من
           </h2>
           <Border display="flex justify-center w-28 lg:w-28 mx-auto lg:mx-0" />
           <p
-            className={`mt-5 font-iranSans font-semibold text-natural-7 opacity-100 transition-all duration-300 md:mt-6`}
+            className={`font-vazir mt-5 font-semibold text-natural-7 opacity-100 transition-all duration-300 md:mt-6`}
           >
             {AboutInfo[infoCount]?.text}
           </p>
           <button
             onClick={handlerCount}
-            className="mt-5 flex animate-bounce items-center gap-1 font-iranSans font-semibold text-brand-9"
+            className="font-vazir mt-5 flex animate-bounce items-center gap-1 font-semibold text-brand-9"
           >
             بیشتر
             <img

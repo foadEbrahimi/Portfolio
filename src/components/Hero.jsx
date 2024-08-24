@@ -20,21 +20,27 @@ export default function Hero() {
           <h1 className="text-center font-morraba text-4xl font-semibold text-natural-10-title lg:w-10 lg:text-6xl">
             فواد ابراهــیـمـی
           </h1>
-          <p className="text-center font-iranSans text-natural-7 lg:hidden lg:max-w-[20rem] lg:text-right">
+          <p className="font-vazir text-center text-natural-7 lg:hidden lg:max-w-[20rem] lg:text-right">
             من فواد ابراهیمی 17 ساله و برنامه نویس فرانت اند هستم
           </p>
-          <p className="hidden text-center font-iranSans text-natural-7 lg:block lg:max-w-[20rem] lg:text-right">
+          <p className="font-vazir hidden text-center text-natural-7 lg:block lg:max-w-[20rem] lg:text-right">
             من فواد ابراهیمی هستم 17 ساله و فرانت اند دولوپر و علاقه مند به کار
             و یادگیری...
           </p>
           <Border display="hidden lg:flex" />
         </div>
-        <div className="grid grid-cols-2 gap-[16px] font-iranSans xl:gap-[24px]">
-          <button className="flex items-center justify-center gap-3 rounded-lg bg-brand-8 p-3 text-white transition-all duration-300 hover:bg-brand-10-hover">
+        <div className="font-vazir grid grid-cols-2 gap-[16px] xl:gap-[24px]">
+          <button
+            onClick={() => document.getElementById("contact").scrollIntoView()}
+            className="flex items-center justify-center gap-3 rounded-lg bg-brand-8 p-3 text-white transition-all duration-300 hover:bg-brand-10-hover"
+          >
             همکاری
             <img src={hamkari} className="w-5" alt="svg" />
           </button>
-          <button className="flex items-center justify-center gap-3 rounded-lg bg-brand-8 p-3 text-white transition-all duration-300 hover:bg-brand-10-hover">
+          <button
+            onClick={() => document.getElementById("about").scrollIntoView()}
+            className="flex items-center justify-center gap-3 rounded-lg bg-brand-8 p-3 text-white transition-all duration-300 hover:bg-brand-10-hover"
+          >
             بیشتر
             <img src={dots} className="w-5" alt="svg" />
           </button>
