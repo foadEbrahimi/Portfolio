@@ -21,21 +21,18 @@ export const socials = [
   {
     id: 1,
     img: tel,
-    label: "beFrontFace@",
+    link: "https://t.me/foadEbr",
+    label: "foadEbr",
   },
   {
     id: 3,
     img: links,
+    link: "https://linkedin.com/in/foadebarhimi",
     label: "Foad Ebrahimi",
   },
   {
     id: 2,
     img: ins,
     label: "Foad Ebrahimi",
-  },
-  {
-    id: 4,
-    img: tel,
-    label: "beFrontFace@",
   },
 ];
