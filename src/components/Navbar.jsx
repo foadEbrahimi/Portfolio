@@ -4,7 +4,7 @@ import logo from "../assets/images/Logo.png";
 
 export default function Navbar() {
   return (
-    <div className="mx-auto p-3 px-5 font-vazir shadow-1 lg:px-10">
+    <div className="animate__animated animate__fadeInDownBig animate__slow mx-auto p-3 px-5 font-vazir shadow-1 lg:px-10">
       <div className="mx-auto flex max-w-[70rem] items-center justify-between">
         {/* <img src={menu} className="w-7 cursor-pointer" alt="svg" /> */}
         <ul className="flex items-center gap-5 *:text-lg">

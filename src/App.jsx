@@ -1,4 +1,5 @@
 import React from "react";
+
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Works from "./components/Works";
@@ -7,6 +8,8 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Testimonial from "./components/Testimonial";
 import Footer from "./components/Footer";
+
+import "animate.css";
 
 export default function App() {
   return (

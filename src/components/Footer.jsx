@@ -12,7 +12,7 @@ import email from "../assets/images/svgs/email.svg";
 
 export default function Footer() {
   return (
-    <div className="rounded-t-3xl bg-brand-9 p-5 font-vazir lg:mx-auto lg:w-[95%] lg:px-10">
+    <div className="mt-10 rounded-t-3xl bg-brand-9 p-5 font-vazir lg:mx-auto lg:w-[95%] lg:px-10">
       <div className="flex flex-col gap-12 md:flex-row md:items-start md:justify-center md:gap-20 lg:gap-40">
         <div className="space-y-3">
           <img src={logo} className="w-10" alt="logo" />
