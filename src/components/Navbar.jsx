@@ -1,11 +1,34 @@
 import React from "react";
 
-import menu from "../assets/images/svgs/menu.svg";
+import logo from "../assets/images/Logo.png";
+
 export default function Navbar() {
   return (
-    <div className="flex items-center justify-between p-3 px-5 shadow-1 lg:px-10">
-      <img src={menu} className="w-7 cursor-pointer" alt="svg" />
-      <img src="" className="w-7" alt="logo" />
+    <div className="mx-auto p-3 px-5 font-vazir shadow-1 lg:px-10">
+      <div className="mx-auto flex max-w-[70rem] items-center justify-between">
+        {/* <img src={menu} className="w-7 cursor-pointer" alt="svg" /> */}
+        <ul className="flex items-center gap-5 *:text-lg">
+          <li
+            className="cursor-pointer transition-all hover:text-brand-8"
+            onClick={() => document.getElementById("works").scrollIntoView()}
+          >
+            پروژه ها
+          </li>
+          <li
+            className="cursor-pointer transition-all hover:text-brand-8"
+            onClick={() => document.getElementById("about").scrollIntoView()}
+          >
+            درباره من
+          </li>
+          <li
+            className="cursor-pointer transition-all hover:text-brand-8"
+            onClick={() => document.getElementById("contact").scrollIntoView()}
+          >
+            ارتباط
+          </li>
+        </ul>
+        <img src={logo} className="w-12" alt="logo" />
+      </div>
     </div>
   );
 }
