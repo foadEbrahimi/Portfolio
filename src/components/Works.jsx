@@ -11,9 +11,9 @@ import BtnSlider from "./slider/BtnSlider";
 
 export default function Works() {
   return (
-    <div className="mt-10 px-2 py-5 lg:px-10">
+    <div id="works" className="mt-10 px-2 py-5 lg:px-10">
       <div className="">
-        <h2 className="font-vazir text-center text-2xl font-bold lg:text-3xl">
+        <h2 className="text-center font-vazir text-2xl font-bold lg:text-3xl">
           کارهای من
         </h2>
         <Border display="flex justify-center w-28 lg:w-36 mx-auto" />

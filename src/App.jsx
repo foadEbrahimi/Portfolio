@@ -6,10 +6,11 @@ import Journy from "./components/Journy";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Testimonial from "./components/Testimonial";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <div className="bg-natural-1 overflow-hidden">
+    <div className="overflow-hidden bg-natural-1">
       <Navbar />
       <Hero />
       <Journy />
@@ -17,56 +18,7 @@ export default function App() {
       <About />
       <Contact />
       <Testimonial />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      <Footer />
     </div>
   );
 }
